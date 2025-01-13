@@ -1,0 +1,12 @@
+body {
+    background-color: #18181A;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#qrcode {
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+}

@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "QRs",
+	"version": "1.0.0",
+	"description": "A simple browser extension that displays the current tab's URL, allowing you to easily share links between your PC and phone without relying on third-party tools.",
+	"icons": {
+		"48": "icons/qr.png"
+	},
+	"author":"4egl5",
+	"homepage_url":"https://github.com/4egl5/QRs",
+	"permissions": [
+		"tabs"
+	],
+	"action": {
+		"default_icon": "/icons/qr.png",
+		"default_title": "QRs",
+		"default_popup": "/popup/qrs.html"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "qrs@4egl5.github.io"
+		}
+	}
+}
